@@ -1,3 +1,3 @@
 FROM tomcat:9-jre9
-MAINTANER "niveditanivvi6@gmail.com"
-copy ./canara.war
+MAINTAINER "niveditanivvi6@gmail.com"
+COPY ./canara.war  /usr/local/tomcat/webapps
